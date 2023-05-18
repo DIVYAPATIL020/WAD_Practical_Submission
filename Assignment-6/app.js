@@ -7,7 +7,7 @@ const bodyParser= require("body-parser");
 const studentRoute= require("./api/routes/student");
 const userRoute= require("./api/routes/user");
 
-mongoose.connect('mongodb+srv://pranjalak06:1234@cluster0.shssrny.mongodb.net/test');
+mongoose.connect('mongodb+srv://kbtug20210:divya147@cluster0.2big9zy.mongodb.net/?retryWrites=true&w=majority');
 mongoose.connection.on("error", err=>{
     console.log("Connection failed")
 })
